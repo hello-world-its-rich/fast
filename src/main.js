@@ -20,28 +20,28 @@ export default function(Vue, { router, head, isClient }) {
   // Basic meta tags
   head.meta.push({
     name: 'author',
-    content: 'Ville Säävuori',
+    content: 'Rich',
   })
 
   head.meta.push({
     name: 'keywords',
-    content: 'Gridsome,Vue,Tailwind,Tailwind CSS,JavaScript,HTML,CSS,Vue.js,VueJS',
+    content: '',
   })
 
   head.meta.push({
     name: 'description',
-    content: 'Single page starter template for Gridsome.',
+    content: 'Thank you for reading my description.',
   })
 
   // Open Graph + Twitter meta tags
   head.meta.push({
     property: 'og:description',
-    content: 'Single page starter template for Gridsome.',
+    content: 'Please send to a friend',
   })
 
   head.meta.push({
     name: 'twitter:description',
-    content: 'Single page starter template for Gridsome.',
+    content: 'Please send to a friend',
   })
 
   head.meta.push({
@@ -51,31 +51,13 @@ export default function(Vue, { router, head, isClient }) {
 
   head.meta.push({
     property: 'og:title',
-    content: 'Tulip - Single Page Gridsome Starter',
+    content: 'Hello World',
   })
 
   head.meta.push({
     name: 'twitter:title',
-    content: 'Tulip - Single Page Gridsome Starter',
+    content: 'Hello World',
   })
 
-  head.meta.push({
-    name: 'twitter:card',
-    content: 'summary_large_image',
-  })
 
-  head.meta.push({
-    name: 'twitter:creator',
-    content: '@uninen',
-  })
-
-  head.meta.push({
-    property: 'og:image',
-    content: ' https://gridsome-starter-tulip.netlify.com/img/social-preview.png',
-  })
-
-  head.meta.push({
-    name: 'twitter:image',
-    content: 'https://gridsome-starter-tulip.netlify.com/img/social-preview.png',
-  })
 }

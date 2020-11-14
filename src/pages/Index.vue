@@ -6,28 +6,28 @@
     <div class="mt-8 md:mt-16 flex flex-wrap items-center justify-center">
       <div>
         <h1 class="font-maintitle text-5xl sm:text-7xl block text-center sm:pr-8 text-gray-700">
-          {{ $static.metadata.siteName }}
-        </h1>
+<!--           {{ $static.metadata.siteName }}
+ -->        </h1>
       </div>
 
       <g-image
         class="block h-32 sm:h-64 w-auto"
-        alt="Tulip"
+        alt="HelloWorld"
         src="~/assets/img/tulip.jpg"
       />
     </div>
 
-    <h2>Single page starter for <a href="https://gridsome.org">Gridsome</a></h2>
-
+    <h2>The quieter you become, the more you can hear.</h2>
+<!-- 
     <p class="text-2xl font-sans text-gray-700 pb-2">No blog, tags or other cruft; <br> just a <strong>single page</strong> for your your content.</p>
 
     <ul class="text-lg leading-relaxed">
       <li><strong><a href="https://tailwindcss.com">Tailwind CSS</a></strong> w/ minimal base styles</li>
       <li><strong>Single page</strong> for your content, nothing else.</li>
       <li class="text-base text-gray-800">Ready if you need them: <strong>Google Analytics</strong> and <strong>Open Graph meta tags</strong></li>
-    </ul>
+    </ul> -->
 
-    <h3>Installation And Configuration</h3>
+    <!-- <h3>Installation And Configuration</h3>
 
     <p>Installing and configuring tulip is very easy. You'll get your site up and running in less
       than 5 minutes. There's nothing special about Tulip, it's just a Gridsome site,
@@ -89,14 +89,11 @@
 
       <dt>What if I want multiple page styles, a blog, authors, tags etc?</dt>
       <dd>If you are just starting, then Tulip is not for you. Try some other awesome <a href="https://gridsome.org/starters/">Gridsome starter</a> (But if you're building your site a bit by bit, tweaking Tulip is as easy as any other Gridsome site &ndash; it's basically just Vue!)</dd>
-    </dl>
+    </dl> -->
 
     <p class="text-center mt-16 mb-8 text-xs">
-      Vue + Gridsome is ❤️ <br />
-      &copy; Ville Säävuori (<a
-        class="underline text-blue-700"
-        href="https://twitter.com/uninen"
-      >@uninen</a>) 2020, MIT License
+      Made with ❤️ in West Palm Beach <br />
+      Please steal my code
     </p>
   </Layout>
 </template>
@@ -112,7 +109,7 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "Tulip - Single Page Gridsome Starter"
+    title: "Hello World It's Rich"
   }
 };
 </script>
