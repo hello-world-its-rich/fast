@@ -3,7 +3,7 @@
     <!-- Replace everything inside this Layout with your own content -->
     <!-- The main container CSS classes are in `src/layouts/Default.vue` -->
 
-    <div class="mt-8 md:mt-16 flex flex-wrap items-center justify-center">
+    <div class="mt-4 md:mt-16 flex flex-wrap items-center justify-center">
       <div>
         <h1 class="font-maintitle text-5xl sm:text-7xl block text-center sm:pr-8 text-gray-700">
 <!--           {{ $static.metadata.siteName }}
@@ -11,13 +11,13 @@
       </div>
 
       <g-image
-        class="block h-32 sm:h-64 w-auto"
+        class="block h-64 sm:h-64 w-auto items-center"
         alt="HelloWorld"
         src="~/assets/img/tulip.jpg"
       />
     </div>
 
-    <h2>The quieter you become, the more you can hear.</h2>
+    <h2 class="text-center">The quieter you become, the more you can hear.</h2>
 <!-- 
     <p class="text-2xl font-sans text-gray-700 pb-2">No blog, tags or other cruft; <br> just a <strong>single page</strong> for your your content.</p>
 
@@ -91,9 +91,19 @@
       <dd>If you are just starting, then Tulip is not for you. Try some other awesome <a href="https://gridsome.org/starters/">Gridsome starter</a> (But if you're building your site a bit by bit, tweaking Tulip is as easy as any other Gridsome site &ndash; it's basically just Vue!)</dd>
     </dl> -->
 
-    <p class="text-center mt-16 mb-8 text-xs">
+<form class="w-full max-w-sm flex mb-20 items-center justify-center" name="richlandingpage" method="POST" data-netlify="true">
+  <div class="flex items-center border-b border-teal-500 py-2 justify-center">
+    <input class="flex items-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Leave a message...." aria-label="Full name">
+    <button class="flex-shrink-0 justify-center bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" type="button">
+      📤 Send
+    </button>
+  </div>
+</form>
+
+
+
+    <p class="text-center mt-2 mb-8 text-xs text-black text-opacity-10">
       Made with ❤️ in West Palm Beach <br />
-      Please steal my code
     </p>
   </Layout>
 </template>

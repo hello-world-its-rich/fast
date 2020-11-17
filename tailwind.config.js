@@ -7,7 +7,7 @@ module.exports = {
         maintitle: ['Great Vibes', 'cursive'],
       },
       fontSize: {
-        '7xl': '5rem',
+        '5xl': '5rem',
       },
     },
   },
